@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7dfeb97960.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="subHeader">
+      <nav>
+        <a href="index.html"></a>
+        <img src="images/logo.png" alt="t" />
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-rectangle-xmark" onclick="HideMenu()"></i>
+
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="course">COURSE</a></li>
+            <li><a href="">VLOG</a></li>
+          </ul>
+        </div>
+
+        <i class="fa-solid fa-arrow-right-from-line" onclick="ShowMenu()"></i>
+        
+      </nav>
+
+    
+      <h1>Our Courses</h1>
+      </div>
+    </section>
+    <!----------------courses-------------------->
+    <section class="course">
+      <h1>Course we offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+        dignissimos adipisci facilis numquam commodi <br />
+        ad maiores, officiis ab rerum nemo atque quisquam eum hic, nostrum sunt
+        enim inventore animi!
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            omnis nulla ipsa exercitationem cumque facere nostrum tempora a
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Deegree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            omnis nulla ipsa exercitationem cumque facere nostrum tempora
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>post-graduate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            omnis nulla ipsa exercitationem cumque facere nostrum tempora
+            aliquam quisquam,
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-----------------------facilities--------------------------->
+    <section class="facilities">
+      <h1>Our facilities</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi c</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="" />
+          <h3>world class library</h3>
+          <p>orem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>orem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="" />
+          <h3>Larger play ground</h3>
+          <p>orem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+
+   
+<!-------------------footer------------------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. nesciuum
+        asperiores,<br />
+        repellat molestiae doloremque.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-square" onclick="shoeFB()"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>made with <i class="fa-solid fa-heart-pulse"></i> by Abhiworkshop</p>
+    </section>
+    
+
+    
+    <!--JAVA SCRIPT FOR TOGGLE MENU-->
+    <script>
+      var navLinksc = document.getElementsByID("navLinks");
+
+      function ShowMenu() {
+        navLinks.style.right = "0px";
+      }
+
+      function HideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
